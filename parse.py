@@ -15,7 +15,7 @@ parser.add_argument('logfiles', metavar='logfile', type=str, nargs='+',
 
 parser.add_argument('-e', '--extensions', dest='extensions', action='store',
                    help='specify a comma-separated list of extensions to ignore during parsing')
-                   
+
 parser.add_argument('-m', '--minimum', dest='minimum', action='store',
                    help='the counting threshold that has to be exceeded to display the entry')
 
@@ -43,7 +43,7 @@ except AttributeError:
 for logpath in options['logfiles']:
 	try:
 		log = open(logpath, 'r')
-		
+
 		for line in log:
 			try:
 				ip, hostname, dash, datetime, timezone, method, uri, version, status, size, referer, useragent = line.split(' ', 11)
@@ -55,27 +55,28 @@ for logpath in options['logfiles']:
 				useragent = useragent[1:-2]
 				referer = referer[1:-1]
 				filename = uri.split('?')[0]
+				print uri
 				extension = os.path.splitext(filename)[1][1:]
-				
+
 				if extension not in ignore_extensions:
 					if hostname not in hosts:
 						hosts[hostname] = 0
-					
+
 					if referer not in referers:
 						referers[referer] = 0
-					
+
 					if date not in days:
 						days[date] = 0
-					
+
 					if filename not in files:
 						files[filename] = 0
-					
+
 					if uri not in urls:
 						urls[uri] = 0
-						
+
 					if extension not in extensions:
 						extensions[extension] = 0
-						
+
 					hosts[hostname] += 1
 					referers[referer] += 1
 					days[date] += 1
@@ -84,11 +85,11 @@ for logpath in options['logfiles']:
 					extensions[extension] += 1
 			except ValueError:
 				print "Corrupt log line at line %d, contents: %s" % (current_lines + 1, line[:-1])
-				
+
 			current_lines += 1
-			
+
 			if current_lines % 1000 == 0:
-				print "Processed %d lines." % current_lines		
+				print "Processed %d lines." % current_lines
 	except IOError:
 		print "Could not find file %s, ignored entry." % logpath
 
