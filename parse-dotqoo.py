@@ -61,10 +61,10 @@ def parse():
 	global table, OS, browser, brand, DEFAULT_PATH
 	current_lines = 0
 
+	# if auto flag is provided, add DEFAULT_PATH to 'paths'
+	paths = options['logfiles']
 	if options['auto']:
-		paths = [DEFAULT_PATH]
-	else:
-		paths = options['logfiles']
+		paths.append(DEFAULT_PATH)
 
 	for logpath in paths:
 		try:
