@@ -42,19 +42,21 @@ def show_sorted(dictionary):
 				print entry.ljust(15),
 			# show Percentage
 			print format(dictionary[entry] / float(len(table)) * 100, '.2f') , "%"
-
 	print ""
 
 
-# show top 100 host name
+# show top 20 host name
 def show_sorted_host(dictionary):
 	counter = 0
 	for entry in sorted(dictionary, key=dictionary.get, reverse=True):
-		if counter == 100:
+		# only print top 20 host name
+		# put the rest in local txt file
+		if counter == 20:
 			break
 		print str(dictionary[entry]).rjust(total_digits),
 		print entry.ljust(35)
 		counter += 1
+	print ""
 
 
 def parse():
@@ -228,6 +230,8 @@ def get_stats():
 def print_result():
 	global stat_OS, stat_browser, stat_brand, extensions
 
+	print "\nDetected total %d devices" % len(table)
+
 	print "\nTop OS:"
 	show_sorted(stat_OS)
 
@@ -240,10 +244,28 @@ def print_result():
 	# print "Top extension"
 	# show_sorted(extensions)
 
-	print "Top 100 host:"
+	print "Top 20 host:"
 	show_sorted_host(hosts)
 
+	print "For more detail results please check 'hostname.txt' and 'info_table.txt' located in the same directory"
+
 	print ''
+
+
+def write_to_file():
+	global table, hosts
+
+	# write info table
+	fp = open("info_table.txt", 'w')
+	for ip, info in table.iteritems():
+		fp.write(ip.rjust(20) + ' ' + str(info) + '\n')
+	fp.close()
+
+	# write hostname
+	fp = open("hostname.txt", 'w')
+	for entry in sorted(hosts, key=hosts.get, reverse=True):
+		fp.write(str(hosts[entry]).rjust(total_digits) + ' ' + entry.ljust(35) + '\n')
+	fp.close()
 
 
 
@@ -254,16 +276,7 @@ def main():
 	get_stats()
 
 	print_result()
-
-	# for key, value in table.iteritems():
-	# 	print key, value
-
-
-
-
-
-
-
+	write_to_file()
 
 
 

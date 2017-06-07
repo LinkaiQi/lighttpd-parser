@@ -99,3 +99,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+# ignore parse-dotqoo generated txt file
+*.txt
