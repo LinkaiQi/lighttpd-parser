@@ -2,6 +2,8 @@
 
 import re, argparse, os
 
+DEFAULT_PATH = "/var/log/lighttpd/access.log"
+
 # command line input arguments
 options = {}
 
@@ -41,7 +43,6 @@ def show_sorted(dictionary):
 			# show Percentage
 			print format(dictionary[entry] / float(len(table)) * 100, '.2f') , "%"
 
-
 	print ""
 
 
@@ -57,10 +58,15 @@ def show_sorted_host(dictionary):
 
 
 def parse():
-	global table, OS, browser, brand
+	global table, OS, browser, brand, DEFAULT_PATH
 	current_lines = 0
 
-	for logpath in options['logfiles']:
+	if options['auto']:
+		paths = [DEFAULT_PATH]
+	else:
+		paths = options['logfiles']
+
+	for logpath in paths:
 		try:
 			log = open(logpath, 'r')
 		except IOError:
@@ -126,18 +132,21 @@ def parse():
 
 
 def read_arg():
-	global options
+	global options, DEFAULT_PATH
 
 	parser = argparse.ArgumentParser(description='Parse a lighttpd access log.')
 
 	parser.add_argument('logfiles', metavar='logfile', type=str, nargs='+',
 	                   help='path(s) of the logfile(s)')
 
+	parser.add_argument('-a', '--auto', action="store_true", default=False,
+						help ='get the access.log file from default directory ' + DEFAULT_PATH)
+
 	# parser.add_argument('-e', '--extensions', dest='extensions', action='store',
 	#                   help='specify a comma-separated list of extensions to ignore during parsing')
 
-	parser.add_argument('-m', '--minimum', dest='minimum', action='store',
-	                   help='the counting threshold that has to be exceeded to display the entry')
+	parser.add_argument('-m', dest='minimum', action='store',
+	                   help ='the counting threshold that has to be exceeded to display the entry')
 
 	args = parser.parse_args()
 	options = vars(args)
@@ -235,7 +244,7 @@ def print_result():
 	show_sorted_host(hosts)
 
 	print ''
-	
+
 
 
 def main():
