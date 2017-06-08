@@ -1,6 +1,7 @@
 #!/usr/bin/python
 
 import re, argparse, os
+from datetime import datetime
 
 DEFAULT_PATH = "/var/log/lighttpd/access.log"
 
@@ -27,6 +28,9 @@ current_lines = 0
 
 # stat table
 table = {}
+
+record = {}
+# ip: {[init-time, last-update, duration], [_,_,_], ....}
 
 
 
@@ -86,6 +90,8 @@ def parse():
 				# except:
 				#	extension = ''
 				ip, hostname, time = ipTime.split(None, 2)
+				time = time[3:-8]
+				time_obj = datetime.strptime(time, '%d/%b/%Y:%H:%M:%S')
 
 				# extension (HTML, png ..)
 				# if len(extension) <= 5:
@@ -100,10 +106,33 @@ def parse():
 				else:
 					hosts[hostname] += 1;
 
-
+				# if not in record, create an entry
 				if ip not in table:
 					# table column OS, browser, brand
 					table[ip] = [None, None, None]
+					record[ip] = [[time_obj, time_obj, time_obj-time_obj]]
+
+				# update connection duration
+				latest_record = record[ip][-1]
+				if (time_obj - latest_record[1]).total_seconds() < 300:
+					latest_record[1] = time_obj
+					latest_record[2] = time_obj - latest_record[0]
+				else:
+					record[ip].append([time_obj, time_obj, time_obj-time_obj])
+
+
+				# ip: {[init-time, last-update, duration], [_,_,_], ....}
+
+
+
+
+
+
+
+
+
+				# update duration
+				# table[ip][4] = str(time_obj - table[ip][3])
 
 				# OS
 				for regex, name in OS.iteritems():
@@ -247,13 +276,13 @@ def print_result():
 	print "Top 20 host:"
 	show_sorted_host(hosts)
 
-	print "For more detail results please check 'hostname.txt' and 'info_table.txt' located in the same directory"
+	print "For more details please check 'hostname', 'info_table' and 'conn_timestamp' located in the current directory"
 
 	print ''
 
 
 def write_to_file():
-	global table, hosts
+	global table, hosts, record
 
 	# write info table
 	fp = open("info_table.txt", 'w')
@@ -266,6 +295,17 @@ def write_to_file():
 	for entry in sorted(hosts, key=hosts.get, reverse=True):
 		fp.write(str(hosts[entry]).rjust(total_digits) + ' ' + entry.ljust(35) + '\n')
 	fp.close()
+
+	# write connection timestamp
+	fp = open("conn_timestamp.txt", 'w')
+	for ip, info in table.iteritems():
+		fp.write(ip.rjust(18) + ' ' + str(info) + '\n')
+		for conn in record[ip]:
+			fp.write(("Start: " + str(conn[0])).rjust(45) + "  Duration:" + str(int(conn[2].total_seconds())) + "secs\n")
+		fp.write('\n')
+	fp.close()
+
+
 
 
 
