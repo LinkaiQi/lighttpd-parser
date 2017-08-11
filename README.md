@@ -1,8 +1,11 @@
 # lighttpd-parser
 
 Intro: Parse a lighttpd access log.
+
 Author: Linkai Qi
-Reference: https://github.com/joepie91/lighttpdparse
+
+Reference: Code is modified from joepie's repository
+  https://github.com/joepie91/lighttpdparse
 
 ### usage:
     $python parse-dotqoo.py [-h] [-a] [-m MINIMUM] logfile [logfile ...]
