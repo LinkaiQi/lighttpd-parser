@@ -10,7 +10,7 @@ options = {}
 
 # RegexObject dictionary
 OS = {}
-browser = {}
+base = {}
 brand = {}
 
 # referers = {}
@@ -20,7 +20,7 @@ hosts = {}
 # urls = {}
 extensions = {}
 stat_OS = {}
-stat_browser = {}
+stat_base = {}
 stat_brand = {}
 
 total_digits = 10
@@ -63,9 +63,97 @@ def show_sorted_host(dictionary):
 	print ""
 
 
+# use dalvik and mozilla format quick parse device info
+def quick_parse(ip, device):
+	global base, table
+
+	# base
+	for regex, name in base.iteritems():
+		if regex.match(device):
+
+			# initalize values
+			os = base_version = brand = model = build = None
+
+			if name == "Dalvik":
+				system, extra = device.split(')')
+				base_version, sys_info = system.split('(')
+				base_version = base_version.rstrip()
+				# Compatible mode
+				if len(base_version.split()) > 1:
+					base_version, mode = base_version.split()
+					if mode != "Compatible":
+						# raise ValueError('unsupported form')
+						return False
+					# TODO ..........
+					# raise ValueError('unsupported form')
+					return False
+				# normal form
+				else:
+					sys_info = sys_info.split(';')
+					os = sys_info[2][1:]
+					temp = sys_info[3].split()
+					brand = temp[0]
+					model = temp[1:-1]
+					if model == []:
+						model = None
+					build = temp[-1]
+					# value assignment
+					# OS, base, brand, model, build
+					# table[ip] = [os, base_version, brand, model, build]
+					# return True
+
+			elif name == "Mozilla":
+				system, extra = device.split(')', 1)
+				base_version, sys_info = system.split('(')
+				base_version = base_version.rstrip()
+				sys_info = sys_info.split(';')
+
+				# cannot get 'model', 'build' from Windows OS
+				if sys_info[0] == "iPhone":
+					result = regex_iOS.search(system)
+					if result:
+						os = "iOS " + result.group(2).replace('_', '.')
+						brand = "Apple"
+					else:
+						return False
+						# raise ValueError('unsupported form')
+
+				# cannot get 'brand', 'model', 'build' from Windows OS
+				elif sys_info[0] == "Windows":
+					# os = sys_info[2].strip()
+					pass
+
+				# handle by	dalvik base
+				elif sys_info[0] == "Linux":
+					pass
+
+				elif sys_info[0] == "compatible":
+					# build = sys_info[1].strip()
+					# os = sys_info[2].strip().strip(')')
+					return False
+
+				# unsupported form
+				else:
+					return False
+					# raise ValueError('unsupported form')
+
+			# value assignment
+			# OS, base, brand, model, build
+			values = [os, base_version, brand, model, build]
+			for i in range(len(values)):
+				if values[i] != None:
+					table[ip][i] = values[i]
+	return True
+
+	# if find dalvik and mozilla expression, return match = True
+
+
 def parse():
-	global table, OS, browser, brand, DEFAULT_PATH
+	global table, regex_iOS, OS, base, brand, DEFAULT_PATH
 	current_lines = 0
+
+	# write unparseable log to file
+	fp = open("unparseable_log.txt", 'w')
 
 	# if auto flag is provided, add DEFAULT_PATH to 'paths'
 	paths = options['logfiles']
@@ -108,8 +196,8 @@ def parse():
 
 				# if not in record, create an entry
 				if ip not in table:
-					# table column OS, browser, brand
-					table[ip] = [None, None, None]
+					# table column: OS, base, brand, model, build
+					table[ip] = [None, None, None, None, None]
 					record[ip] = [[time_obj, time_obj, time_obj-time_obj]]
 
 				# update connection duration
@@ -124,32 +212,49 @@ def parse():
 				# update duration
 				# table[ip][4] = str(time_obj - table[ip][3])
 
-				# OS
-				for regex, name in OS.iteritems():
-					result = regex.search(device)
-					if result:
-						table[ip][0] = name + " " + result.group(2).replace('_', '.')
+				# dalvik and mozilla format quick parse device info
+				success = quick_parse(ip, device)
+				# IF dalvik and mozilla format parser does not work
+				# AND haven't get device info yet
+				# -> THEN try regular regex parse insterad
+				if table[ip][4] == None:
 
-				# browser
-				for regex, name in browser.iteritems():
-					result = regex.search(device)
-					if result:
-						table[ip][1] = name
+					# OS
+					for regex, name in OS.iteritems():
+						result = regex.search(device)
+						if result and table[ip][0] == None:
+							# table column: OS, base, brand, model, build
+							table[ip][0] = name + " " + result.group(2).replace('_', '.')
 
-				# brand
-				for regex, name in brand.iteritems():
-					result = regex.search(device)
-					if result:
-						table[ip][2] = name
+					# base
+					for regex, name in base.iteritems():
+						result = regex.search(device)
+						if result and table[ip][1] == None:
+							table[ip][1] = result.group()
+
+					# brand
+					for regex, name in brand.iteritems():
+						result = regex.search(device)
+						if result and table[ip][2] == None:
+							table[ip][2] = name
+
+				if not success:
+					raise ValueError('unsupported quick_parse form')
+
+
 
 
 			except ValueError:
-				print "Corrupt log line at line %d, contents: %s" % (current_lines + 1, line[:-1])
+				fp.write("Corrupt log line at line " + str(current_lines+1) + "  " + device)
+				#print "Corrupt log line at line %d, contents: %s" % (current_lines + 1, line[:-1])
 
 			# line counter
 			current_lines += 1
 			if current_lines % 10000 == 0:
 				print " >>> Processed %d lines." % current_lines
+
+	# close 'unparseable_log.txt'
+	fp.close()
 
 
 def read_arg():
@@ -174,16 +279,20 @@ def read_arg():
 
 
 def compile_regex():
-	global OS, browser, brand
+	global regex_iOS, OS, base, brand
+
+	regex_iOS = re.compile(r"(iPhone OS) (\d+_\d+(_\d+)?)")
+	# re.search(r"(iPhone OS) (\d+_\d+(_\d+)?)", "(CPU iPhone OS 10_2_1)").group(2)
+	# iPhone OS 10_2_1
 
 	# OS
 	android = re.compile(r"(Android) ?(\d+\.\d+(\.\d+)?)")
 	OS[android] = "Android"
 	# re.search(r"(Android) ?(\d+\.\d+(\.\d+)?)", "dsfsdfsdk Android 4.3").group(2)
 	# Android 4.3 /  Android 6.0.1
-	ios_1 = re.compile(r"(iOS)[ |;](\d+\.\d+(\.\d+)?)")
+	ios_1 = re.compile(r"(iOS)[^01-9]?(\d+\.\d+(\.\d+)?)")
 	OS[ios_1] = "iOS"
-	# re.search(r"(iOS)[ |;](\d+\.\d+(\.\d+)?)", "dsfsdfsdk iOS;10.3.3").group(2)
+	# re.search(r"(iOS)[^01-9]?(\d+\.\d+(\.\d+)?)", "dsfsdfsdk iOS;10.3.3").group(2)
 	# iOS;10.2.1 / iOS 10.2.1 / iOS/8.1
 	ios_2 = re.compile(r"(iPhone\d+\,\d+)/(\d+\.\d+(\.\d+)?)")
 	OS[ios_2] = "iOS"
@@ -191,21 +300,22 @@ def compile_regex():
 	# iPhone7,1/10.2.1 (14D27)
 	ios_3 = re.compile(r"(iPhone OS) (\d+_\d+(_\d+)?)")
 	OS[ios_3] = "iOS"
-	# TODO the return value of group(2) is "_", not dot
 	# re.search(r"(iPhone OS) (\d+_\d+(_\d+)?)", "(CPU iPhone OS 10_2_1)").group(2)
 	# iPhone OS 10_2_1
 
-	# BROWSER
-	mozilla = re.compile(r"mozilla", re.IGNORECASE)
-	browser[mozilla] = "mozilla"
+
+	# Base
+	mozilla = re.compile(r"Mozilla/")
+	base[mozilla] = "Mozilla"
 	# TODO all convert to lower case letter
 	# re.search(r"mozilla", "MoZiLLa", re.IGNORECASE).group()
 	# Mozilla/5.0 (Linux...)
-	dalvik = re.compile(r"dalvik", re.IGNORECASE)
-	browser[dalvik] = "dalvik"
+	dalvik = re.compile(r"Dalvik/")
+	base[dalvik] = "Dalvik"
 	# TODO all convert to lower case letter
 	# re.search(r"dalvik", "Dalvik", re.IGNORECASE).group()
 	# Dalvik/2.1.0 (Linux...)
+
 
 	# Brand
 	GIONEE = re.compile(r"GIONEE", re.IGNORECASE)
@@ -231,31 +341,31 @@ def compile_regex():
 
 
 def get_stats():
-	global stat_OS, stat_browser, stat_brand
+	global stat_OS, stat_base, stat_brand
 
 	for ip, info in table.iteritems():
 		if info[0] not in stat_OS:
 			stat_OS[info[0]] = 0
-		if info[1] not in stat_browser:
-			stat_browser[info[1]] = 0
+		if info[1] not in stat_base:
+			stat_base[info[1]] = 0
 		if info[2] not in stat_brand:
 			stat_brand[info[2]] = 0
 
 		stat_OS[info[0]] += 1
-		stat_browser[info[1]] += 1
+		stat_base[info[1]] += 1
 		stat_brand[info[2]] += 1
 
 
 def print_result():
-	global stat_OS, stat_browser, stat_brand, extensions
+	global stat_OS, stat_base, stat_brand, extensions
 
 	print "\nDetected total %d devices" % len(table)
 
 	print "\nTop OS:"
 	show_sorted(stat_OS)
 
-	print "Top browser:"
-	show_sorted(stat_browser)
+	print "Top base:"
+	show_sorted(stat_base)
 
 	print "Top manufacturer:"
 	show_sorted(stat_brand)
@@ -277,7 +387,13 @@ def write_to_file():
 	# write info table
 	fp = open("info_table.txt", 'w')
 	for ip, info in table.iteritems():
-		fp.write(ip.rjust(20) + ' ' + str(info) + '\n')
+		# construct device info (eg. Redmi Note 2)
+		dev = str(info[2])
+		if info[3] != None:
+			for value in info[3]:
+				dev += ' ' + value
+		fp.write(ip.rjust(20) + ' | ' + str(info[0]).ljust(15) + str(info[1]).ljust(14)
+			+ dev.ljust(16) + str(info[4])+ '\n')
 	fp.close()
 
 	# write hostname
