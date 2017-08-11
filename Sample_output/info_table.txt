@@ -1,0 +1,436 @@
+      172.16.224.229 | Android 5.1.1  Mozilla/5.0   OPPO A33        Build/LMY47V
+      172.16.224.221 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+      172.16.230.130 | Android 4.4.4  Dalvik/1.6.0  3005            Build/KTU84P
+       172.16.211.32 | Android 6.0.1  Dalvik/2.1.0  vivo X9i        Build/MMB29M
+       172.16.224.20 | Android 6.0.1  Dalvik/2.1.0  MI 4LTE         MIUI/V8.5.1.0.MXGCNED
+       172.16.224.27 | iOS 10.3.2     Mozilla/5.0   Apple           None
+      172.16.212.253 | Android 5.1    Dalvik/2.1.0  G19             Build/LMY47D
+       172.16.216.58 | Android 4.4.4  Dalvik/1.6.0  A31             Build/KTU84P
+      172.16.240.208 | iOS 10.3.2     Mozilla/5.0   Apple           None
+      172.16.236.102 | Android 5.0.2  Dalvik/2.1.0  Redmi Note 2    MIUI/V8.2.1.0.LHMCNDL
+      172.16.226.171 | Android 5.0.2  Dalvik/2.1.0  vivo Y51        Build/LRX22G
+      172.16.219.131 | Android 5.1.1  Dalvik/2.1.0  vivo Y31A       Build/LMY47V
+       172.16.215.74 | Android 4.3    Dalvik/1.6.0  HM 1SW          MIUI/JHCCNBL55.0
+       172.16.229.36 | Android 4.4.4  Dalvik/1.6.0  vivo Y13L       Build/KTU84P
+       172.16.241.58 | Android 6.0.1  Dalvik/2.1.0  vivo X9         Build/MMB29M
+      172.16.228.194 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+       172.16.210.73 | Android 4.3    Dalvik/1.6.0  Lenovo A788t    Build/S104
+      172.16.221.118 | Android 4.4.2  Dalvik/1.6.0  PE-TL00M 5      Build/HuaweiPE-TL00M
+      172.16.217.177 | Android 6.0    Dalvik/2.1.0  NEM-AL10        Build/HONORNEM-AL10
+       172.16.218.35 | Android 7.0    Mozilla/5.0   EVA-AL10        Build/HUAWEIEVA-AL10
+       172.16.236.97 | Android 5.1    Dalvik/2.1.0  F105            Build/LMY47D
+       172.16.234.39 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+      172.16.223.172 | Android 4.4.2  Mozilla/5.0   Lenovo A320t    Build/KOT49H
+      172.16.240.129 | Android 6.0    Mozilla/5.0   HUAWEI MLA-TL00 Build/HUAWEIMLA-TL00
+       172.16.214.17 | Android 5.1    Dalvik/2.1.0  m3 note         Build/LMY47I
+      172.16.212.177 | Android 5.1    Dalvik/2.1.0  CUN-TL00        Build/HUAWEICUN-TL00
+      172.16.230.221 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+      172.16.221.180 | Android 6.0    Dalvik/2.1.0  Redmi Note 4    MIUI/V8.1.8.0.MBFCNDI
+       172.16.240.59 | Android 5.1    Dalvik/2.1.0  Coolpad 8718    Build/LMY47D
+      172.16.216.191 | Android 6.0    Dalvik/2.1.0  F100S           Build/MRA58K
+       172.16.231.88 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+        172.16.50.15 | None           None          None            None
+      172.16.220.209 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.220.148 | iOS 10.2.1     Mozilla/5.0   Apple           None
+      172.16.240.158 | Android 5.1.1  Dalvik/2.1.0  vivo Y31A       Build/LMY47V
+       172.16.239.63 | Android 4.4.2  Dalvik/1.6.0  HONOR H30-L01M  Build/HonorH30-L01M
+      172.16.225.176 | Android 5.1.1  Dalvik/2.1.0  2014813         MIUI/V8.2.1.0.LHJCNDL
+      172.16.221.249 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.210.112 | iOS 8.1        Mozilla/5.0   Apple           None
+       172.16.243.67 | None           None          None            None
+       172.16.243.64 | Android 5.1.1  Dalvik/2.1.0  OPPO A33m       Build/LMY47V
+      172.16.219.244 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+       172.16.221.95 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+      172.16.221.176 | Android 5.1.1  Dalvik/2.1.0  vivo X6S A      Build/LMY47V
+       172.16.226.24 | Android 6.0    Mozilla/5.0   GN8003 5        Build/MRA58K
+      172.16.217.218 | Android 5.1    Dalvik/2.1.0  M5              Build/LMY47D
+      172.16.223.155 | Android 5.1.1  Dalvik/2.1.0  vivo Y31A       Build/LMY47V
+      172.16.227.225 | Android 7.0    Mozilla/5.0   BLN-AL10        Build/HONORBLN-AL10
+       172.16.233.34 | Android 4.4.4  Dalvik/1.6.0  K2-01 5         Build/KTU84P
+      172.16.236.135 | Android 6.0.1  Dalvik/2.1.0  Le X528         Build/IJXCNCM5902605131S
+      172.16.236.132 | Android 6.0.1  Dalvik/2.1.0  vivo X9i        Build/MMB29M
+      172.16.235.138 | Android 5.1.1  Dalvik/2.1.0  Coolpad A8-531  Build/LMY47V
+      172.16.236.130 | Android 6.0.1  Dalvik/2.1.0  vivo X9i        Build/MMB29M
+      172.16.236.131 | Android 4.1.2  Mozilla/5.0   ZTE N919D       Build/JZO54K
+      172.16.235.137 | Android 5.1.1  Mozilla/5.0   Coolpad A8-531  Build/LMY47V
+       172.16.223.72 | Android 4.4.2  Dalvik/1.6.0  TCL P301M       Build/KOT49H
+      172.16.235.132 | Android 4.4.4  Dalvik/1.6.0  vivo X5V        Build/KTU84P
+      172.16.232.150 | Android 5.1    Mozilla/5.0   ZTE BA601       Build/LMY47D
+      172.16.214.196 | Android 5.1.1  Dalvik/2.1.0  vivo X7         Build/LMY47V
+      172.16.232.155 | Android 5.1.1  Dalvik/2.1.0  vivo V3Max A    Build/LMY47V
+      172.16.214.217 | Android 4.4.4  Dalvik/1.6.0  G621-TL00       Build/HonorG621-TL00
+      172.16.214.214 | Android 5.1    Dalvik/2.1.0  OPPO R9km       Build/LMY47I
+      172.16.238.250 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+      172.16.241.143 | Android 6.0    Dalvik/2.1.0  vivo Y67L       Build/MRA58K
+       172.16.216.18 | Android 4.4.2  Mozilla/5.0   None            None
+      172.16.236.149 | Android 6.0.1  Dalvik/2.1.0  vivo X9L        Build/MMB29M
+       172.16.220.16 | Android 5.1.1  Dalvik/2.1.0  OPPO A33m       Build/LMY47V
+      172.16.218.167 | Android 5.1    Dalvik/2.1.0  F100            Build/LMY47D
+      172.16.212.191 | Android 7.0    Mozilla/5.0   BLN-TL10 5      Build/HONORBLN-TL10
+      172.16.214.108 | Android 5.1.1  Dalvik/2.1.0  vivo X7         Build/LMY47V
+       172.16.225.26 | Android 6.0.1  Dalvik/2.1.0  MI 4LTE         MIUI/V8.2.1.0.MXDCNDL
+      172.16.228.146 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.228.145 | Android 5.0.2  Dalvik/2.1.0  vivo X5M        Build/LRX22G
+      172.16.240.237 | Android 4.4.4  Dalvik/1.6.0  X5              Build/KTU84P
+       172.16.239.10 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+       172.16.239.15 | Android 5.1.1  Dalvik/2.1.0  OPPO A53        Build/LMY47V
+      172.16.211.177 | Android 5.1.1  Dalvik/2.1.0  OPPO A53        Build/LMY47V
+       172.16.239.23 | Android 6.0.1  Dalvik/2.1.0  Coolpad 5267    Build/MMB29M
+      172.16.220.188 | iOS 6.0        Mozilla/5.0   Apple           None
+      172.16.211.178 | Android 5.1.1  Dalvik/2.1.0  OPPO A53        Build/LMY47V
+      172.16.234.178 | Android 4.4.2  Dalvik/1.6.0  HTC D610t       Build/KOT49H
+      172.16.234.179 | Android 4.4.2  Dalvik/1.6.0  HTC D610t       Build/KOT49H
+      172.16.237.229 | Android 4.4.4  Mozilla/5.0   None            None
+       172.16.210.74 | Android 4.3    Mozilla/5.0   Lenovo A788t    Build/S104
+       172.16.239.84 | Android 4.4    Dalvik/1.6.0  Nexus 5         Build/KRT16M
+      172.16.222.185 | Android 6.0    Dalvik/2.1.0  OUKI_P2         Build/MRA58K
+       172.16.239.87 | Android 5.0.2  Dalvik/2.1.0  vivo Y33        Build/LRX21M
+      172.16.243.223 | Android 6.0.1  Mozilla/5.0   Samsung         None
+      172.16.217.157 | Android 4.4.4  Dalvik/1.6.0  A31             Build/KTU84P
+       172.16.242.97 | Android 5.1    Dalvik/2.1.0  HUAWEI TAG-TL00 Build/HUAWEITAG-TL00
+      172.16.223.112 | Android 6.0    Dalvik/2.1.0  GN9012          Build/MRA58K
+      172.16.223.113 | Android 6.0    Mozilla/5.0   GN9012          Build/MRA58K
+      172.16.219.193 | Android 5.0    Dalvik/2.1.0  F103            Build/LRX21M
+       172.16.235.32 | Android 4.4.4  Mozilla/5.0   vivo X5S L      Build/KTU84P
+        172.16.238.7 | Android 4.4.4  Dalvik/1.6.0  vivo Y23L       Build/KTU84P
+       172.16.233.79 | Android 5.1    Dalvik/2.1.0  Lenovo A3860    Build/LMY47D
+       172.16.229.99 | Android 5.1.1  Dalvik/2.1.0  vivo Y31A       Build/LMY47V
+      172.16.215.157 | Android 6.0.1  Dalvik/2.1.0  HUAWEI RIO-AL00 Build/HuaweiRIO-AL00
+      172.16.231.213 | Android 6.0.1  Dalvik/2.1.0  vivo X9         Build/MMB29M
+      172.16.231.214 | iOS 7.1.2      Mozilla/5.0   Apple X9        Build/MMB29M
+        172.16.236.2 | Android 5.1    Dalvik/2.1.0  Best_Sonny_LT533Build/LMY47D
+       172.16.223.35 | Android 5.1.1  Dalvik/2.1.0  vivo X7         Build/LMY47V
+       172.16.243.38 | Android 5.1.1  Mozilla/5.0   OPPO A33        Build/LMY47V
+      172.16.237.253 | Android 5.1.1  Dalvik/2.1.0  vivo X6S A      Build/LMY47V
+       172.16.226.59 | Android 5.1    Mozilla/5.0   GN5001S         Build/LMY47D
+       172.16.226.58 | Android 5.1    Dalvik/2.1.0  GN5001S         Build/LMY47D
+      172.16.238.215 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+      172.16.227.163 | Android 5.0    Mozilla/5.0   vivo Y33        Build/LRX21M
+       172.16.226.56 | Android 6.0    Dalvik/2.1.0  CAM-AL00        Build/HONORCAM-AL00
+      172.16.239.182 | Android 5.1.1  Dalvik/2.1.0  OPPO A53m       Build/LMY47V
+      172.16.241.217 | Android 5.1.1  Dalvik/2.1.0  SCL-TL00        Build/HonorSCL-TL00
+       172.16.220.38 | Android 4.4.2  Dalvik/1.6.0  SM-G3559        Build/KOT49H
+      172.16.241.211 | None           None          None            None
+      172.16.218.201 | Android 5.1.1  Dalvik/2.1.0  OPPO A33        Build/LMY47V
+      172.16.218.203 | Android 5.1.1  Dalvik/2.1.0  OPPO A33        Build/LMY47V
+       172.16.238.82 | Android 5.1    Dalvik/2.1.0  GN3002          Build/LMY47D
+      172.16.220.232 | Android 4.4.2  Dalvik/1.6.0  H60-L03         Build/HDH60-L03
+      172.16.242.163 | Android 5.1    Dalvik/2.1.0  ZTE BA610T      Build/LMY47D
+      172.16.242.167 | iOS 7.1.2      None          Apple           None
+      172.16.232.183 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+       172.16.219.80 | Android 5.1    Dalvik/2.1.0  OPPO A59m       Build/LMY47I
+       172.16.219.81 | Android 5.1    Dalvik/2.1.0  OPPO A59m       Build/LMY47I
+      172.16.230.127 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.223.205 | Android 4.4.4  Mozilla/5.0   vivo Y13L       Build/KTU84P
+      172.16.213.220 | Android 5.0.2  Dalvik/2.1.0  vivo Y31        Build/LRX22G
+      172.16.233.140 | Android 5.1.1  Mozilla/5.0   vivo Y51A       Build/LMY47V
+        172.16.216.6 | Android 6.0    Mozilla/5.0   DIG-AL00 5      Build/HUAWEIDIG-AL00
+       172.16.236.18 | None           None          None            None
+       172.16.237.66 | Android 5.0.2  Mozilla/5.0   vivo Y33        Build/LRX21M
+      172.16.222.168 | Android 5.1.1  Dalvik/2.1.0  vivo V3         Build/LMY47V
+      172.16.232.248 | Android 5.0.1  Dalvik/2.1.0  Lenovo A5500    Build/LRX21M
+      172.16.238.131 | Android 4.4.2  Dalvik/1.6.0  CHM-TL00H 5     Build/HonorCHM-TL00H
+      172.16.216.112 | Android 5.1    Mozilla/5.0   F100            Build/LMY47D
+      172.16.216.113 | Android 5.1    Dalvik/2.1.0  F100            Build/LMY47D
+      172.16.221.109 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.232.247 | Android 5.0.1  Dalvik/2.1.0  Lenovo A5500    Build/LRX21M
+      172.16.232.240 | Android 6.0    Dalvik/2.1.0  GN8003          Build/MRA58K
+       172.16.228.39 | Android 6.0    Dalvik/2.1.0  NCE-AL00        Build/HUAWEINCE-AL00
+      172.16.216.230 | Android 5.1    Dalvik/2.1.0  vivo X6D        Build/LMY47I
+       172.16.219.35 | Android 6.0.1  Mozilla/5.0   OPPO A57        Build/MMB29M
+       172.16.219.33 | Android 5.1.1  Dalvik/2.1.0  vivo X7Plus     Build/LMY47V
+      172.16.214.132 | iOS 9.1        Mozilla/5.0   Apple           None
+        172.16.228.1 | Android 5.1.1  Dalvik/2.1.0  vivo V3Max A    Build/LMY47V
+      172.16.214.134 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+        172.16.50.13 | None           None          None            None
+        172.16.50.12 | None           None          None            None
+        172.16.50.11 | None           None          None            None
+        172.16.50.10 | None           None          None            None
+       172.16.214.21 | Android 5.1.1  Dalvik/2.1.0  vivo Y31        Build/LMY47V
+        172.16.50.14 | None           None          None            None
+        172.16.224.4 | Android 6.0.1  Dalvik/2.1.0  vivo X9         Build/MMB29M
+      172.16.219.155 | Android 4.3    Dalvik/1.6.0  R831S           Build/JLS36C
+      172.16.229.196 | iOS 10.3.1     None          Apple           None
+      172.16.229.197 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+       172.16.229.53 | Android 6.0.1  Dalvik/2.1.0  KIW-TL00        Build/HONORKIW-TL00
+      172.16.229.219 | Android 6.0.1  Dalvik/2.1.0  vivo X9Plus     Build/MMB29M
+        172.16.222.1 | Android 4.4.4  Dalvik/1.6.0  A31t            Build/KTU84P
+      172.16.221.179 | Android 4.4.4  Dalvik/1.6.0  OPPO R7         Build/KTU84P
+      172.16.216.183 | Android 4.4.4  Dalvik/1.6.0  OPPO R7         Build/KTU84P
+      172.16.229.139 | Android 5.1    Dalvik/2.1.0  m3 note         Build/LMY47I
+       172.16.240.40 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.234.127 | Android 7.0    Mozilla/5.0   EVA-AL00        Build/HUAWEIEVA-AL00
+      172.16.243.229 | Android 5.1    Dalvik/2.1.0  NOAIN X7        Build/LMY47D
+       172.16.239.50 | Android 4.4.4  Dalvik/1.6.0  G7-L01          Build/HuaweiG7-L01
+      172.16.226.144 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.226.145 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.226.143 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+       172.16.212.15 | Android 6.0    Dalvik/2.1.0  ALE-TL00        Build/HuaweiALE-TL00
+        172.16.220.0 | Android 7.0    Mozilla/5.0   BLN-AL10        Build/HONORBLN-AL10
+       172.16.243.70 | Android 5.0.2  Mozilla/5.0   vivo Y35A       Build/LRX22G
+      172.16.216.231 | Android 5.1    Dalvik/2.1.0  OPPO A59m       Build/LMY47I
+      172.16.237.219 | Android 4.4.2  Dalvik/1.6.0  CHM-TL00H       Build/HonorCHM-TL00H
+      172.16.217.200 | Android 6.0.1  Mozilla/5.0   C106-9 5        Build/ZCXCNCT5801804271S
+       172.16.220.95 | Android 5.1.1  Dalvik/2.1.0  vivo V3Max A    Build/LMY47V
+      172.16.229.109 | Android 5.0.2  Mozilla/5.0   vivo Y51A       Build/LRX22G
+      172.16.212.115 | Android 7.0    Mozilla/5.0   EVA-TL00 5      Build/HUAWEIEVA-TL00
+       172.16.235.69 | Android 5.1    Dalvik/2.1.0  Y685C           Build/LMY47I
+      172.16.223.140 | Android 4.4.4  Dalvik/       None            None
+      172.16.210.191 | Android 4.4.2  Dalvik/1.6.0  X98             Build/KOT49H
+       172.16.222.91 | Android 5.1    Dalvik/2.1.0  vivo V3M A      Build/LMY47I
+        172.16.226.0 | Android 4.4.2  Dalvik/1.6.0  Lenovo A808t    Build/KOT49H
+        172.16.226.7 | Android 4.4.4  Dalvik/1.6.0  A31c            Build/KTU84P
+      172.16.242.124 | Android 5.1    Dalvik/2.1.0  Lenovo A3860    Build/LMY47D
+       172.16.216.72 | Android 6.0.1  Dalvik/2.1.0  OPPO A57t       Build/MMB29M
+       172.16.216.73 | Android 6.0.1  Dalvik/2.1.0  OPPO A57t       Build/MMB29M
+      172.16.219.190 | Android 6.0.1  Dalvik/2.1.0  Redmi 4A        MIUI/V8.2.5.0.MCCCNDL
+       172.16.223.47 | Android 4.1.2  Mozilla/5.0   None            None
+        172.16.238.0 | Android 6.0.1  Mozilla/5.0   vivo Y66        Build/MMB29M
+      172.16.221.228 | Android 6.0    Mozilla/5.0   HUAWEI VNS-AL00 Build/HUAWEIVNS-AL00
+      172.16.214.188 | Android 5.0.2  Dalvik/2.1.0  PLK-TL01H       Build/HONORPLK-TL01H
+      172.16.233.189 | Android 5.1.1  Dalvik/2.1.0  vivo V3Max A    Build/LMY47V
+       172.16.237.20 | Android 5.0.2  Dalvik/2.1.0  SM-A7000        Build/LRX22G
+       172.16.237.76 | None           Mozilla/      None            None
+      172.16.222.120 | Android 4.2.1  Dalvik/1.6.0  R819T           Build/JOP40D
+      172.16.215.222 | Android 6.0.1  Dalvik/2.1.0  KIW-TL00        Build/HONORKIW-TL00
+      172.16.222.129 | Android 5.1.1  Dalvik/2.1.0  vivo X6S A      Build/LMY47V
+      172.16.236.236 | iOS 6.0        Mozilla/5.0   Apple           None
+       172.16.240.97 | Android 5.1    Dalvik/2.1.0  OPPO A59m       Build/LMY47I
+       172.16.228.75 | Android 5.1.1  Dalvik/2.1.0  OPPO A33        Build/LMY47V
+       172.16.240.91 | Android 5.0.2  Dalvik/2.1.0  MI 2            MIUI/V8.2.1.0.LXACNDL
+      172.16.242.223 | Android 5.1    Dalvik/2.1.0  m1 metal        Build/LMY47I
+       172.16.228.79 | Android 4.2.2  Dalvik/1.6.0  vivo Y11iW      Build/JDQ39
+       172.16.226.85 | Android 4.4.4  Mozilla/5.0   None            None
+      172.16.224.206 | Android 6.0.1  Dalvik/2.1.0  SM-A5100        Build/MMB29M
+       172.16.225.31 | Android 6.0.1  Mozilla/5.0   vivo X9Plus     Build/MMB29M
+      172.16.236.197 | Android 5.1    Dalvik/2.1.0  8298-M02        Build/LMY47D
+       172.16.211.19 | Android 5.1    Dalvik/2.1.0  vivo V3M A      Build/LMY47I
+      172.16.228.150 | Android 4.3    Dalvik/1.6.0  R831S           Build/JLS36C
+      172.16.212.233 | Android 4.4.4  Dalvik/1.6.0  OPPO R7s        Build/KTU84P
+      172.16.240.221 | Android 5.1.1  Dalvik/2.1.0  vivo Xplay5A    Build/LMY47V
+      172.16.226.244 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+       172.16.243.92 | Android 4.4.2  Dalvik/1.6.0  vivo Xplay3S    Build/KVT49L
+       172.16.237.50 | Android 4.4.4  Dalvik/1.6.0  A11             Build/KTU84P
+      172.16.222.230 | Android 5.1    Dalvik/2.1.0  M651CY          Build/LMY47D
+       172.16.237.52 | Android 4.4.4  Dalvik/1.6.0  Coolpad Y75     Build/KTU84P
+      172.16.237.131 | Android 4.3    Dalvik/1.6.0  HUAWEI G616-L076Build/HUAWEIG616-L076
+       172.16.215.50 | Android 4.4.4  Mozilla/5.0   A31             Build/KTU84P
+       172.16.241.74 | Android 5.1    Mozilla/5.0   GN5001          Build/LMY47D
+      172.16.232.215 | Android 5.1    Dalvik/2.1.0  m2 5            Build/LMY47D
+      172.16.229.255 | Android 4.4.4  Dalvik/1.6.0  HM NOTE 1S      MIUI/V8.2.1.0.KHKCNDL
+      172.16.220.192 | Android 4.4.2  Dalvik/1.6.0  Che2-TL00       Build/HonorChe2-TL00
+      172.16.242.252 | Android 5.1    Dalvik/2.1.0  Lenovo A3860    Build/LMY47D
+      172.16.220.147 | iOS 10.2.1     Mozilla/5.0   Apple           None
+       172.16.218.16 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+       172.16.218.14 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.233.157 | Android 5.1    Dalvik/2.1.0  GN5001S         Build/LMY47D
+      172.16.231.111 | Android 5.0    Dalvik/2.1.0  Lenovo A5500    Build/LRX21M
+      172.16.214.164 | Android 5.1.1  Dalvik/2.1.0  OPPO A33m       Build/LMY47V
+      172.16.225.209 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+       172.16.238.42 | Android 5.1.1  Dalvik/2.1.0  vivo X7         Build/LMY47V
+       172.16.214.71 | Android 5.1.1  Mozilla/5.0   vivo Y51A       Build/LMY47V
+      172.16.217.129 | Android 5.1    Dalvik/2.1.0  GN5001          Build/LMY47D
+      172.16.239.100 | Android 5.1.1  Mozilla/5.0   vivo X7Plus     Build/LMY47V
+      172.16.237.140 | Android 6.0.1  Dalvik/2.1.0  vivo X9Plus     Build/MMB29M
+      172.16.230.201 | Android 6.0    Dalvik/2.1.0  HUAWEI VNS-AL00 Build/HUAWEIVNS-AL00
+       172.16.230.92 | Android 4.4.4  Dalvik/1.6.0  6607            Build/KTU84P
+      172.16.229.222 | Android 6.0.1  Dalvik/2.1.0  vivo Y66        Build/MMB29M
+       172.16.235.28 | Android 5.0.2  Dalvik/2.1.0  Redmi Note 2    MIUI/V8.2.1.0.LHMCNDL
+      172.16.219.194 | Android 5.0    Dalvik/2.1.0  F103            Build/LRX21M
+      172.16.215.169 | Android 5.1    Mozilla/5.0   F100A           Build/LMY47D
+      172.16.220.126 | Android 4.1.1  Mozilla/5.0   None            None
+      172.16.235.215 | None           None          None            None
+      172.16.243.179 | Android 5.1.1  Dalvik/2.1.0  OPPO A33        Build/LMY47V
+      172.16.235.210 | Android 5.0.2  Dalvik/2.1.0  CHE-TL00H       Build/HonorCHE-TL00H
+      172.16.234.118 | Android 5.0.2  Dalvik/2.1.0  ALE-TL00        Build/HuaweiALE-TL00
+       172.16.215.40 | Android 5.1    Dalvik/2.1.0  GN9010          Build/LMY47D
+      172.16.236.246 | Android 5.1    Dalvik/2.1.0  ZTE BA601       Build/LMY47D
+      172.16.215.189 | Android 5.1    Dalvik/2.1.0  HUAWEI TAG-TL00 Build/HUAWEITAG-TL00
+      172.16.218.107 | Android 5.1    Dalvik/2.1.0  HUAWEI TAG-TL00 Build/HUAWEITAG-TL00
+      172.16.237.249 | Android 4.4.2  Dalvik/1.6.0  Lenovo A3800-d  Build/LenovoA3800-d
+      172.16.237.246 | Android 6.0.1  Dalvik/2.1.0  vivo Y55A       Build/MMB29M
+       172.16.214.81 | Android 6.0    Dalvik/2.1.0  OPPO A37t       Build/MRA58K
+       172.16.214.80 | Android 6.0    Dalvik/2.1.0  OPPO A37t       Build/MRA58K
+       172.16.214.83 | Android 4.4.4  Dalvik/1.6.0  MI 4LTE         MIUI/V6.2.1.0.KXDCNBK
+       172.16.214.84 | Android 4.4.4  Dalvik/1.6.0  MI 4LTE         MIUI/V6.2.1.0.KXDCNBK
+      172.16.227.190 | Android 5.1    Dalvik/v1.1.47P52             Build/LMY47D
+      172.16.216.205 | Android 6.0    Dalvik/2.1.0  Redmi Note 4    MIUI/V8.0.5.0.MBFCNDG
+      172.16.218.212 | Android 5.0.2  Dalvik/2.1.0  vivo X5Pro D    Build/LRX21M
+       172.16.220.46 | Android 6.0.1  Dalvik/2.1.0  vivo X9i        Build/MMB29M
+      172.16.218.218 | Android 5.1    Mozilla/5.0   HUAWEI TAG-TL00 Build/HUAWEITAG-TL00
+       172.16.212.57 | None           Mozilla/      None            None
+      172.16.220.227 | Android 4.3    Dalvik/1.6.0  GT-I9158V       Build/JSS15J
+       172.16.216.85 | Android 6.0.1  Dalvik/2.1.0  Redmi 4A        MIUI/V8.2.4.0.MCCCNDL
+      172.16.242.171 | Android 6.0    Dalvik/2.1.0  M5              Build/MRA58K
+      172.16.220.220 | Android 4.2.2  Dalvik/1.6.0  R829T           Build/JDQ39
+      172.16.232.176 | iOS 8.3        Mozilla/5.0   Apple           None
+      172.16.213.216 | Android 6.0    Dalvik/2.1.0  GN5003          Build/MRA58K
+      172.16.224.159 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+      172.16.231.131 | Android 5.1    Dalvik/2.1.0  HUAWEI TIT-AL00 Build/HUAWEITIT-AL00
+       172.16.227.89 | Android 4.4.2  Dalvik/1.6.0  TCL P301M       Build/KOT49H
+      172.16.233.155 | Android 4.4.4  Dalvik/1.6.0  Che1-CL20       Build/Che1-CL20
+      172.16.214.233 | Android 4.4.4  Dalvik/1.6.0  A31             Build/KTU84P
+       172.16.243.31 | Android 5.1    Dalvik/2.1.0  HUAWEI TAG-AL00 Build/HUAWEITAG-AL00
+       172.16.237.19 | Android 6.0.1  Dalvik/2.1.0  OPPO R9sk       Build/MMB29M
+      172.16.227.104 | Android 6.0.1  Dalvik/2.1.0  OPPO R9sk       Build/MMB29M
+      172.16.227.103 | Android 6.0.1  Mozilla/5.0   OPPO R9sk       Build/MMB29M
+      172.16.236.166 | Android 5.1    Dalvik/2.1.0  M100            Build/LMY47D
+       172.16.210.94 | Android 4.4.4  Dalvik/1.6.0  OPPO R7         Build/KTU84P
+       172.16.210.93 | Android 4.4.4  Dalvik/1.6.0  OPPO R7         Build/KTU84P
+      172.16.242.183 | Android 5.1    Dalvik/2.1.0  HUAWEI TIT-AL00 Build/HUAWEITIT-AL00
+      172.16.230.145 | iOS 6.0        Mozilla/5.0   Apple           None
+       172.16.224.74 | Android 5.1.1  Dalvik/2.1.0  OPPO R9 Plusm A Build/LMY47V
+      172.16.237.108 | Android 5.1    Dalvik/2.1.0  T1              Build/LMY47D
+      172.16.237.101 | Android 6.0    Dalvik/2.1.0  GN9012          Build/MRA58K
+      172.16.237.106 | Android 4.4.4  Dalvik/1.6.0  HM 2A           MIUI/6.9.22
+       172.16.239.38 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+      172.16.229.183 | Android 6.0.1  Mozilla/5.0   vivo Y55A       Build/MMB29M
+      172.16.229.182 | Android 6.0.1  Mozilla/5.0   vivo Y55A       Build/MMB29M
+       172.16.212.71 | Android 5.1.1  Dalvik/2.1.0  OPPO A33        Build/LMY47V
+       172.16.226.55 | Android 4.3    Mozilla/5.0   VOTO VT888      Build/S001
+      172.16.229.185 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+       172.16.229.68 | Android 5.1.1  Dalvik/2.1.0  Redmi 3         MIUI/V8.2.2.0.LAICNDL
+      172.16.237.239 | Android 6.0.1  Dalvik/2.1.0  vivo X9i        Build/MMB29M
+       172.16.240.30 | Android 5.1    Dalvik/2.1.0  m2 note         Build/LMY47D
+      172.16.239.125 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.225.157 | Android 4.4.4  Dalvik/1.6.0  A31c            Build/KTU84P
+      172.16.225.153 | Android 6.0    Dalvik/2.1.0  4G 5            Build/MRA58K
+      172.16.210.158 | Android 5.1.1  Dalvik/2.1.0  R7Plusm         Build/LMY47V
+       172.16.225.93 | Android 4.4.4  Dalvik/1.6.0  OPPO R7s        Build/KTU84P
+      172.16.243.237 | Android 6.0.1  Dalvik/2.1.0  vivo Y66        Build/MMB29M
+      172.16.243.236 | Android 6.0.1  Dalvik/2.1.0  vivo Y66        Build/MMB29M
+       172.16.222.70 | Android 4.3    Dalvik/1.6.0  SM-G3568V       Build/JSS15J
+       172.16.230.34 | Android 6.0.1  Dalvik/2.1.0  Redmi 4         MIUI/V8.0.2.0.MCECNDG
+       172.16.238.92 | Android 5.1    Dalvik/2.1.0  SHOWN_P1+ 5     Build/P1F_30W_IVO
+      172.16.239.157 | Android 6.0    Dalvik/2.1.0  vivo Y67L       Build/MRA58K
+      172.16.239.150 | Android 4.4.4  Mozilla/5.0   A31             Build/KTU84P
+      172.16.237.191 | Android 6.0.1  Dalvik/2.1.0  ATH-AL00        Build/HONORATH-AL00
+      172.16.237.193 | Android 6.0    Mozilla/5.0   HUAWEI MLA-AL00 Build/HUAWEIMLA-AL00
+      172.16.212.106 | Android 4.4    Dalvik/1.6.0  Nexus 5         Build/KRT16M
+      172.16.230.251 | Android 5.0.2  Dalvik/2.1.0  vivo Y51        Build/LRX22G
+       172.16.220.83 | iOS 9.3.1      Mozilla/5.0   Apple           None
+      172.16.230.253 | Android 5.0.2  Dalvik/2.1.0  vivo Y51        Build/LRX22G
+      172.16.230.252 | Android 4.4.4  Mozilla/5.0   A11             Build/KTU84P
+      172.16.210.185 | Android 6.0    Dalvik/2.1.0  TCL 520         Build/MRA58K
+       172.16.235.56 | Android 5.1.1  Mozilla/5.0   OPPO A33        Build/LMY47V
+      172.16.231.238 | Android 5.1.1  Mozilla/5.0   SM-G5500        Build/LMY47X
+      172.16.235.245 | Android 4.4.2  Dalvik/1.6.0  Lenovo A320t    Build/KOT49H
+      172.16.230.190 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+      172.16.221.236 | Android 5.1    Dalvik/2.1.0  vivo X6Plus D   Build/LMY47I
+      172.16.218.143 | Android 5.1.1  Dalvik/2.1.0  vivo Xplay5A    Build/LMY47V
+      172.16.218.142 | Android 5.1.1  Dalvik/2.1.0  vivo Xplay5A    Build/LMY47V
+      172.16.218.140 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.218.146 | iOS 10.0.2     None          Apple           None
+      172.16.215.254 | Android 2.3.6  Dalvik/1.4.0  R803            Build/GRK39F
+      172.16.218.144 | Android 5.1.1  Dalvik/2.1.0  vivo Xplay5A    Build/LMY47V
+       172.16.220.30 | Android 6.0    Mozilla/5.0   vivo Y67L       Build/MRA58K
+        172.16.243.7 | Android 6.0.1  Dalvik/2.1.0  Redmi 4X        MIUI/V8.2.16.0.MAMCNEA
+      172.16.224.239 | Android 4.4.4  Dalvik/1.6.0  vivo Y28L       Build/KTU84P
+      172.16.224.231 | Android 5.1.1  Dalvik/2.1.0  ATH-AL00        Build/HONORATH-AL00
+      172.16.231.192 | iOS 7.1.2      Mozilla/5.0   Apple           None
+      172.16.231.191 | Android 6.0.1  Dalvik/2.1.0  SM-C9000        Build/MMB29M
+      172.16.220.215 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+      172.16.242.141 | Android 5.1    Dalvik/2.1.0  m3 note         Build/LMY47I
+       172.16.240.95 | Android 5.1    Dalvik/2.1.0  HD18            Build/LMY47D
+      172.16.228.161 | Android 4.2.2  Dalvik/1.6.0  GT-I9128I       Build/JDQ39
+       172.16.224.30 | Android 4.3    Mozilla/5.0   N5117 5         Build/JLS36C
+      172.16.226.233 | Android 7.0    Mozilla/5.0   EVA-AL00        Build/HUAWEIEVA-AL00
+       172.16.237.44 | Android 7.0    Dalvik/2.1.0  MI 5            MIUI/V8.2.2.0.NAACNEB
+       172.16.241.47 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.219.127 | Android 6.0.1  Mozilla/5.0   vivo            None
+      172.16.219.121 | Android 5.1.1  Dalvik/2.1.0  F103S           Build/LMY47V
+      172.16.228.184 | Android 5.1    Mozilla/5.0   OPPO A37m       Build/LMY47I
+      172.16.238.116 | Android 5.1.1  Dalvik/2.1.0  SCL-CL00        Build/HonorSCL-CL00
+      172.16.223.202 | Android 6.0    Dalvik/2.1.0  CAM-TL00        Build/HONORCAM-TL00
+      172.16.242.240 | Android 5.1    Dalvik/2.1.0  GN8001          Build/LMY47D
+      172.16.225.211 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+      172.16.225.210 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+      172.16.214.150 | Android 6.0    Dalvik/2.1.0  CM820           Build/MRA58K
+       172.16.219.18 | Android 4.3    Mozilla/5.0   vivo X3L        Build/JLS36C
+      172.16.211.186 | Android 4.4.4  Dalvik/1.6.0  vivo X5Max+     Build/KTU84P
+      172.16.243.129 | Android 6.0.1  Dalvik/2.1.0  C1530L          Build/MMB29M
+       172.16.234.62 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+      172.16.219.227 | Android 5.1    Dalvik/2.1.0  OWWO Q8         Build/LMY47D
+      172.16.239.113 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.239.111 | Android 4.2.2  Mozilla/5.0   vivo Y11iW      Build/JDQ39
+      172.16.221.198 | Android 5.1    Dalvik/2.1.0  OPPO A59s       Build/LMY47I
+        172.16.223.2 | Android 5.1.1  Dalvik/2.1.0  OPPO A33m       Build/LMY47V
+      172.16.237.159 | Android 6.0.1  Dalvik/2.1.0  vivo X9         Build/MMB29M
+      172.16.222.235 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+       172.16.233.93 | Android 5.0.2  Dalvik/2.1.0  vivo Y31        Build/LRX22G
+       172.16.237.51 | Android 4.4.4  Dalvik/1.6.0  Coolpad Y75     Build/KTU84P
+      172.16.240.224 | Android 4.0.4  Dalvik/1.6.0  R811            Build/IMM76D
+      172.16.234.108 | Android 4.4.2  Dalvik/1.6.0  CHM-TL00H       Build/HonorCHM-TL00H
+      172.16.243.160 | Android 6.0.1  Dalvik/2.1.0  Redmi 4A        MIUI/V8.2.4.0.MCCCNDL
+      172.16.243.165 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.215.198 | Android 5.1    Dalvik/2.1.0  OPPO R9m        Build/LMY47I
+       172.16.212.38 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.210.126 | Android 5.1    Dalvik/v1.1.47OUKI P4         Build/LMY47D
+      172.16.239.207 | Android 4.4.4  Mozilla/5.0   2014813 5       MIUI/6.1.21
+       172.16.226.33 | iOS 7.0        Mozilla/5.0   Apple           Build/HDH60-L01
+      172.16.233.170 | Android 6.0.1  Dalvik/2.1.0  vivo Y66L       Build/MMB29M
+      172.16.216.217 | Android 6.0    Dalvik/2.1.0  DIM 7S          Build/MRA58K
+       172.16.242.21 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+       172.16.232.36 | Android 6.0    Mozilla/5.0   HUAWEI          None
+       172.16.217.40 | Android 6.0.1  Dalvik/2.1.0  vivo Y55A       Build/MMB29M
+      172.16.229.127 | Android 6.0    Mozilla/5.0   Le X620         Build/HEXCNFN5902303291S
+       172.16.237.62 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+      172.16.235.126 | None           None          None            None
+        172.16.233.1 | Android 7.0    Dalvik/2.1.0  EVA-AL00        Build/HUAWEIEVA-AL00
+      172.16.223.220 | Android 5.1    Dalvik/2.1.0  CUN-TL00        Build/HUAWEICUN-TL00
+      172.16.233.162 | iOS 9.3.2      None          Apple           None
+       172.16.227.94 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.238.247 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+      172.16.220.197 | Android 6.0.1  Dalvik/2.1.0  vivo Y55A       Build/MMB29M
+      172.16.211.235 | Android 6.0    Dalvik/2.1.0  NEM-AL10        Build/HONORNEM-AL10
+      172.16.211.236 | Android 5.1.1  Dalvik/2.1.0  OPPO A53        Build/LMY47V
+        172.16.215.3 | Android 4.4.4  Dalvik/1.6.0  vivo Y13L       Build/KTU84P
+        172.16.215.2 | Android 4.4.4  Dalvik/1.6.0  vivo Y13L       Build/KTU84P
+        172.16.235.7 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+       172.16.211.73 | Android 4.4.4  Dalvik/1.6.0  HM 2A           MIUI/V8.1.2.0.KHLCNDI
+      172.16.234.151 | Android 6.0.1  Dalvik/2.1.0  MI 4LTE         MIUI/V8.2.1.0.MXDCNDL
+      172.16.237.119 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.226.138 | Android 4.4.4  Dalvik/1.6.0  vivo Y23L       Build/KTU84P
+       172.16.239.20 | Android 5.0.2  Dalvik/2.1.0  vivo Y51        Build/LRX22G
+       172.16.229.74 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.237.113 | Android 4.2.2  Dalvik/1.6.0  R831T           Build/JDQ39
+      172.16.226.130 | Android 6.0    Dalvik/2.1.0  vivo Y67        Build/MRA58K
+      172.16.221.159 | Android 5.1.1  Dalvik/2.1.0  Coolpad B770    Build/LMY47V
+      172.16.220.170 | Android 5.1.1  Dalvik/2.1.0  vivo Xplay5A    Build/LMY47V
+      172.16.238.149 | Android 4.4.4  Dalvik/1.6.0  A31             Build/KTU84P
+      172.16.211.166 | Android 6.0.1  Dalvik/2.1.0  OPPO R9s        Build/MMB29M
+      172.16.211.167 | Android 4.3    Dalvik/1.6.0  R6007           Build/JLS36C
+       172.16.240.26 | Android 5.0    Mozilla/5.0   vivo Y35        Build/LRX21M
+       172.16.240.27 | Android 5.0.2  Dalvik/2.1.0  vivo Y37        Build/LRX22G
+        172.16.213.5 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+        172.16.213.4 | Android 5.1.1  Dalvik/2.1.0  vivo Y51        Build/LMY47V
+        172.16.222.9 | Android 5.1    Dalvik/2.1.0  NX535J          Build/LMY47I
+      172.16.228.250 | Android 4.4.4  Dalvik/1.6.0  G621-TL00       Build/HonorG621-TL00
+      172.16.225.221 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.243.209 | Android 6.0.1  Dalvik/2.1.0  vivo X9Plus     Build/MMB29M
+      172.16.210.162 | Android 6.0.1  Dalvik/2.1.0  vivo Y55A       Build/MMB29M
+       172.16.238.60 | Android 5.1.1  Dalvik/2.1.0  M636            Build/LMY47V
+      172.16.237.231 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+      172.16.219.211 | Android 6.0.1  Dalvik/2.1.0  vivo Y55A       Build/MMB29M
+       172.16.234.31 | Android 5.0.2  Dalvik/2.1.0  vivo Y51A       Build/LRX22G
+      172.16.239.126 | Android 6.0.1  Dalvik/2.1.0  OPPO A57        Build/MMB29M
+      172.16.243.189 | Android 5.1.1  Dalvik/2.1.0  vivo X6S A      Build/LMY47V
+      172.16.243.188 | Android 5.1.1  Mozilla/5.0   vivo X6S A      Build/LMY47V
+      172.16.212.130 | iOS 9.2        None          Apple           None
+      172.16.212.132 | Android 6.0    Dalvik/2.1.0  CAM-TL00        Build/HONORCAM-TL00
+       172.16.238.10 | Android 4.4.4  Dalvik/1.6.0  HUAWEI Y635-TL00Build/HuaweiY635-TL00
+       172.16.233.48 | Android 5.1    Dalvik/2.1.0  S6              Build/LMY47D
+      172.16.235.162 | Android 4.4.4  Dalvik/1.6.0  vivo Y13iL      Build/KTU84P
+      172.16.239.164 | Android 6.0    Dalvik/2.1.0  x600            Build/ABXCNOP5902012161S
+      172.16.232.126 | Android 6.0    Dalvik/2.1.0  D888            Build/MRA58K
+      172.16.213.122 | Android 5.1    Dalvik/2.1.0  OPPO A37m       Build/LMY47I
+       172.16.236.78 | iOS 10.0       None          Apple           None
+       172.16.243.23 | Android 6.0.1  Dalvik/2.1.0  Coolpad 5267    Build/MMB29M
+       172.16.243.22 | Android 6.0.1  Dalvik/2.1.0  vivo Y66        Build/MMB29M
+      172.16.241.195 | Android 6.0    Dalvik/2.1.0  F100S           Build/MRA58K
+      172.16.227.170 | iOS 6.0        Mozilla/5.0   Apple           None
+      172.16.222.103 | Android 6.0.1  Dalvik/2.1.0  vivo Y66        Build/MMB29M
+       172.16.242.14 | Android 6.0    Dalvik/2.1.0  ALE-TL00        Build/HuaweiALE-TL00
+       172.16.217.71 | Android 5.1    Dalvik/2.1.0  OPPO R9tm       Build/LMY47I
+       172.16.217.70 | Android 4.4.2  Dalvik/1.6.0  Che2-TL00M      Build/HonorChe2-TL00M
+      172.16.236.218 | Android 5.1    Dalvik/2.1.0  CK3-01          Build/LMY47D
